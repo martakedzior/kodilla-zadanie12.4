@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0 auto;
+  background-color: #1abc9c; }
+
+.navbar {
+  background: #674172;
+  border-color: #674172; }
+  .navbar .navbar-header > a {
+    color: black; }
+  .navbar .navbar-nav > li > a {
+    color: black; }
+  .navbar .navbar-nav > .active > a {
+    background-color: #1abc9c;
+    font-weight: 600;
+    color: black; }
+
+.joke {
+  margin-top: 250px;
+  height: 60vh; }
+  .joke p {
+    font-family: "OpenSans", sans-serif;
+    margin-top: 75px;
+    font-size: 20px; }
+
+.footer {
+  background-color: #674172;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

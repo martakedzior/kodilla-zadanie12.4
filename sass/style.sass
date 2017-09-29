@@ -1,0 +1,35 @@
+$fonts: "OpenSans", sans-serif
+$background-color: #1abc9c
+$header-color: #674172
+
+*
+  margin: 0
+  padding: 0
+
+body
+  margin: 0 auto
+  background-color: $background-color
+
+.navbar
+  background: $header-color
+  border-color: $header-color
+  .navbar-header>a
+    color: black
+  .navbar-nav>li>a
+    color: black
+  .navbar-nav>.active>a
+    background-color: $background-color
+    font-weight: 600
+    color: black
+
+.joke
+  margin-top: 250px
+  height: 60vh
+  p 
+    font-family: $fonts
+    margin-top: 75px
+    font-size: 20px
+
+.footer
+  background-color: $header-color
+  text-align: center
